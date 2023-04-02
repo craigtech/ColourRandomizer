@@ -11,7 +11,7 @@ btn.addEventListener('click', function(){
   color.textContent = hexColor;
 });
 
-function getRandomNumber() {
+function getHexNumber() {
   return Math.floor(Math.random()*hex.length);
   // math.random selects between 0 & 1 
   // -> multiplying by hex.length allows values from 0 to 15 

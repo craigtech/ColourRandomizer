@@ -232,3 +232,21 @@ main {
   color: var(--clr-white);
   background: var(--clr-black);
 }
+.btn-nav {
+  font-family: var(--ff-primary);
+  background: transparent;
+  color: var(--clr-black);
+  letter-spacing: var(--spacing);
+  display: inline-block;
+  transition: var(--transition);
+  border: 1px solid var(--clr-black);
+  cursor: pointer;
+  border-radius: var(--radius);
+  font-size: 1rem;
+  padding: 0.75rem 1.25rem;
+  margin:.2rem;
+}
+.btn-nav:hover {
+  color: var(--clr-white);
+  background: var(--clr-black);
+}
