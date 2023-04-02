@@ -8,7 +8,6 @@ let mode = true
 
 nav_sim_btn.addEventListener('click', function(){
   mode = true
-
 });
 
 nav_hex_btn.addEventListener('click', function(){
